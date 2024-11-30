@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('Main/Lib/Images/Home/wallpaper.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.icon-avatar img {
+  border-radius: 50%;
+  top: 50px;
+  left: 50px;
+  height: 100px;
+  width: 100px;
+}
+
+nav.table {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(244, 244, 244, 0.8);
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  border-radius: 50px;
+}
+
+.text-1 {
+  text-align: center;
+  margin: 20px;
+}
+
+.button-1 button {
+  background-color: brown;
+  background-size: cover;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
